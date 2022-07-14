@@ -180,4 +180,12 @@
     width: 100%;
     flex-direction: column;
   }
+
+  .navbar div {
+    display: none;
+  }
+
+  .main {
+    padding: 0px;
+  }
 }
