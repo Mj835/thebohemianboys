@@ -1,8 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { FaDiscord, FaTwitter, FaInstagram } from "react-icons/fa";
 import AutoPlay from "../components/Slider";
+import Roadmap from "../components/Roadmap";
+import Team from "../components/Team";
 
 export default function Home() {
   return (
@@ -46,7 +47,9 @@ export default function Home() {
                 <div className={styles.textAlignCenter}>
                   <div className={styles.maxWidthLarge}>
                     <div className={styles.marginSmall}>
-                      <h1>The project that inspired the modern Bohemian Boys</h1>
+                      <h1>
+                        The project that inspired the modern Bohemian Boys
+                      </h1>
                     </div>
                     <div className={styles.marginMedium}>
                       <div className={styles.maxWidthSmall}>
@@ -72,6 +75,10 @@ export default function Home() {
       <div style={{ marginBottom: 50 }}>
         <AutoPlay />
       </div>
+
+      <Roadmap />
+
+      <Team />
 
       <footer className={styles.footer}>
         <h1>The Bohemian Boys</h1>

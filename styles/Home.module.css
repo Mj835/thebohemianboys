@@ -150,6 +150,142 @@
   column-gap: 25px;
 }
 
+/* Roadmap CSS */
+
+.roadmap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.roadmap h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+  font-family: "Wigglye";
+  margin-bottom: 2rem;
+}
+
+.timelineWrapper {
+  width: 100%;
+  padding: 2rem;
+}
+
+.timelineContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.timelineContainer:before {
+  background-color: black;
+  content: "";
+  position: absolute;
+  left: calc(50% - 2px);
+  width: 4px;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.timelineItem {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  position: relative;
+  margin: 10px 0;
+  width: 50%;
+}
+
+.timelineItemContent {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 15px;
+  position: relative;
+}
+
+.timelineItemContent h3 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 500;
+  font-family: "Wigglye";
+  margin: 0px;
+}
+
+.timelineItemContent div {
+  margin-left: -1rem;
+}
+
+.timelineItemContent ul {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.timelineItemContent .circle {
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: -40px;
+  width: 20px;
+  height: 20px;
+}
+
+.timelineItem:nth-child(even) {
+  align-self: flex-end;
+  justify-content: flex-start;
+  padding-left: 30px;
+  padding-right: 0;
+}
+
+.timelineItem:nth-child(even) .timelineItemContent .circle {
+  right: auto;
+  left: -40px;
+}
+
+/* Team CSS */
+
+.teamWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 75px;
+}
+
+.membersWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.membersWrapper .memberImage {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.membersWrapper h3 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 500;
+  font-family: "Wigglye";
+  margin: 0px;
+}
+
+.membersWrapper p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+/* Footer CSS */
+
 .footer {
   display: flex;
   flex: 1;
@@ -187,5 +323,32 @@
 
   .main {
     padding: 0px;
+  }
+
+  .timelineWrapper {
+    padding: 1rem;
+  }
+
+  .timelineContainer:before {
+    left: -2px;
+  }
+
+  .timelineItem {
+    align-self: flex-end;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .timelineItemContent .circle {
+    right: auto;
+    left: -40px;
+  }
+
+  .teamWrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
   }
 }
