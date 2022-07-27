@@ -1,11 +1,43 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import { FaDiscord, FaTwitter, FaInstagram } from "react-icons/fa";
+import { useTheme } from "next-themes";
+import { SunIcon, MoonIcon } from "@heroicons/react/solid";
+import styles from "../styles/Home.module.css";
 import AutoPlay from "../components/Slider";
 import Roadmap from "../components/Roadmap";
 import Team from "../components/Team";
+import { useEffect, useState } from "react";
 
 export default function Home() {
+  const [mounted, setMounted] = useState(false);
+  const { systemTheme, theme, setTheme } = useTheme();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const renderThemeChanger = () => {
+    const currentTheme = theme === "system" ? systemTheme : theme;
+
+    if (currentTheme === "dark") {
+      return (
+        <SunIcon
+          className="w-7 h-7"
+          role="button"
+          onClick={() => setTheme("light")}
+        />
+      );
+    } else {
+      return (
+        <MoonIcon
+          className="w-7 h-7"
+          role="button"
+          onClick={() => setTheme("dark")}
+        />
+      );
+    }
+  };
+
   return (
     <div className={styles.container}>
       <Head>
@@ -25,7 +57,7 @@ export default function Home() {
             <li>FAQ</li>
           </ul>
 
-          <div className={styles.socialIcons}>
+          {/* <div className={styles.socialIcons}>
             <a href="#">
               <FaDiscord size={26} />
             </a>
@@ -35,7 +67,9 @@ export default function Home() {
             <a href="#">
               <FaInstagram size={26} />
             </a>
-          </div>
+          </div> */}
+
+          {renderThemeChanger()}
         </div>
       </div>
 

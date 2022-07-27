@@ -78,7 +78,7 @@
 
 .maxWidthSmall p {
   font-family: "Wigglye";
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 
 .buttonWrapper {
@@ -302,6 +302,7 @@
   flex-grow: 1;
   font-family: "Wigglye";
   margin: 0px;
+  font-size: 2rem;
 }
 
 .footer div {
