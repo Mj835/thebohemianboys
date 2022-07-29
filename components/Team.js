@@ -19,8 +19,8 @@ const Team = () => {
             height={220}
             style={{ borderRadius: 10 }}
           />
-          <h3>Abcd</h3>
-          <p>Designation</p>
+          <h3>Excursionist</h3>
+          <p>Founder</p>
           <a href="#">
             <FaTwitter size={26} />
           </a>
@@ -33,8 +33,8 @@ const Team = () => {
             height={220}
             style={{ borderRadius: 10 }}
           />
-          <h3>Abcd</h3>
-          <p>Designation</p>
+          <h3>Rhapsody</h3>
+          <p>Tech</p>
           <a href="#">
             <FaTwitter size={26} />
           </a>
@@ -47,8 +47,8 @@ const Team = () => {
             height={220}
             style={{ borderRadius: 10 }}
           />
-          <h3>Abcd</h3>
-          <p>Designation</p>
+          <h3>LightHouse</h3>
+          <p>Marketing</p>
           <a href="#">
             <FaTwitter size={26} />
           </a>
