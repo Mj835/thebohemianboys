@@ -88,7 +88,7 @@ export default function Home() {
                     <div className={styles.marginMedium}>
                       <div className={styles.maxWidthSmall}>
                         <p>
-                          10,000 unique collectible characters with proof of
+                          8090 unique collectible characters with proof of
                           ownership stored on the Ethereum blockchain.
                         </p>
                       </div>
