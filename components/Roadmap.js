@@ -11,7 +11,7 @@ const Roadmap = () => {
               <h3>25% | Phase 1</h3>
 
               <div>
-                <ul>
+                <ul style={{ listStyle: "disc", marginLeft: 25 }}>
                   <li>Giveaway to 25 holders</li>
                   <li>
                     Merchandise store of fancy travel equipments and gears for
@@ -53,7 +53,7 @@ const Roadmap = () => {
               <h3>75% | Phase 3</h3>
 
               <div>
-                <ul>
+                <ul style={{ listStyle: "disc", marginLeft: 25 }}>
                   <li>Adding more items to Merchandise store</li>
                   <li>
                     First ever Metaverse museum of our collection and
@@ -74,7 +74,7 @@ const Roadmap = () => {
               <h3>100% | Phase 4</h3>
 
               <div>
-                <ul>
+                <ul style={{ listStyle: "disc", marginLeft: 25 }}>
                   <li>Legendary holders will receive rewards</li>
                   <li>
                     Uncommon & common holders will get a chance to participate
