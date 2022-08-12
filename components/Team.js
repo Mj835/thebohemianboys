@@ -7,7 +7,7 @@ import { FaTwitter } from "react-icons/fa";
 
 const Team = () => {
   return (
-    <div className={styles.roadmap}>
+    <div name="team" className={styles.roadmap}>
       <h1>Team</h1>
 
       <div className={styles.teamWrapper}>

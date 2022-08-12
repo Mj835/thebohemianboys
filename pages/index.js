@@ -7,6 +7,8 @@ import AutoPlay from "../components/Slider";
 import Roadmap from "../components/Roadmap";
 import Team from "../components/Team";
 import { useEffect, useState } from "react";
+import FAQ from "../components/FAQ";
+import { Link } from "react-scroll";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -46,15 +48,35 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.navbar}>
+      <div name="home" className={styles.navbar}>
         <h1>The Bohemian Boys</h1>
         <div>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Roadmap</li>
-            <li>Team</li>
-            <li>FAQ</li>
+            <li>
+              <Link to="home" smooth={true} offset={0} duration={500}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="about" smooth={true} offset={0} duration={500}>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="roadmap" smooth={true} offset={0} duration={500}>
+                Roadmap
+              </Link>
+            </li>
+            <li>
+              <Link to="team" smooth={true} offset={0} duration={500}>
+                Team
+              </Link>
+            </li>
+            <li>
+              <Link to="faq" smooth={true} offset={0} duration={500}>
+                FAQ
+              </Link>
+            </li>
           </ul>
 
           {/* <div className={styles.socialIcons}>
@@ -113,6 +135,8 @@ export default function Home() {
       <Roadmap />
 
       <Team />
+
+      <FAQ color={theme === "light" ? "black" : "white"} />
 
       <footer className={styles.footer}>
         <h1>The Bohemian Boys</h1>

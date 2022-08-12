@@ -2,7 +2,7 @@ import styles from "../styles/Home.module.css";
 
 const Roadmap = () => {
   return (
-    <div className={styles.roadmap}>
+    <div name="roadmap" className={styles.roadmap}>
       <h1>Roadmap</h1>
       <div className={styles.timelineWrapper}>
         <div className={styles.timelineContainer}>

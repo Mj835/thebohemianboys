@@ -322,6 +322,12 @@
   display: none;
 }
 
+/* FAQ */
+
+.faqWrapper {
+  width: 50%;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -369,5 +375,9 @@
 
   .mobSlider {
     display: block;
+  }
+
+  .faqWrapper {
+    width: 100%;
   }
 }

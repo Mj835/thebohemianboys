@@ -23,3 +23,11 @@ a {
 .slick-next {
   display: none !important;
 }
+
+.row-title {
+  font-family: "Wigglye";
+}
+
+.row-content-text {
+  font-weight: 500;
+}
