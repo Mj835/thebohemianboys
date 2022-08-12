@@ -312,6 +312,16 @@
   column-gap: 25px;
 }
 
+/* Slider */
+
+.deskSlider {
+  display: block;
+}
+
+.mobSlider {
+  display: none;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -351,5 +361,13 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
+  }
+
+  .deskSlider {
+    display: none;
+  }
+
+  .mobSlider {
+    display: block;
   }
 }

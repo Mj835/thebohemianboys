@@ -21,6 +21,7 @@ import SampleImg633 from "../assets/images/633.png";
 import SampleImg647 from "../assets/images/647.png";
 import SampleImg74 from "../assets/images/74.png";
 import SampleImg78 from "../assets/images/78.png";
+import styles from "/styles/Home.module.css";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -41,212 +42,435 @@ export default class AutoPlay extends Component {
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 4,
+            slidesToScroll: 1,
             infinite: true,
           },
         },
         {
-          breakpoint: 600,
+          breakpoint: 768,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToShow: 3,
+            slidesToScroll: 1,
           },
         },
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 0,
+            slidesToScroll: 0,
+          },
+        },
+      ],
+    };
+
+    const settings2 = {
+      dots: false,
+      infinite: true,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
+      cssEase: "linear",
+      swipeToSlide: false,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            infinite: true,
+          },
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
             slidesToScroll: 1,
           },
         },
       ],
     };
     return (
-      <div>
-        <Slider {...settings}>
-          <div>
-            <Image
-              src={SampleImg117}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg119}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg128}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg1368}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg17}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg27}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg286}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg285}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg387}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg41}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg414}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg47}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg486}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg512}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg598}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg6}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg633}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg647}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg74}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-          <div>
-            <Image
-              src={SampleImg78}
-              alt=""
-              width={220}
-              height={220}
-              style={{ borderRadius: 10 }}
-            />
-          </div>
-        </Slider>
-      </div>
+      <>
+        <div className={styles.deskSlider}>
+          <Slider {...settings}>
+            <div>
+              <Image
+                src={SampleImg117}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg119}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg128}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg1368}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg17}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg27}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg286}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg285}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg387}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg41}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg414}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg47}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg486}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg512}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg598}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg6}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg633}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg647}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg74}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg78}
+                alt=""
+                width={220}
+                height={220}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+          </Slider>
+        </div>
+
+        <div className={styles.mobSlider}>
+          <Slider {...settings2}>
+            <div>
+              <Image
+                src={SampleImg117}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg119}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg128}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg1368}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg17}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg27}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg286}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg285}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg387}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg41}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg414}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg47}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg486}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg512}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg598}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg6}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg633}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg647}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg74}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={SampleImg78}
+                alt=""
+                width={175}
+                height={175}
+                style={{ borderRadius: 10 }}
+              />
+            </div>
+          </Slider>
+        </div>
+      </>
     );
   }
 }
