@@ -79,18 +79,6 @@ export default function Home() {
             </li>
           </ul>
 
-          {/* <div className={styles.socialIcons}>
-            <a href="#">
-              <FaDiscord size={26} />
-            </a>
-            <a href="#">
-              <FaTwitter size={26} />
-            </a>
-            <a href="#">
-              <FaInstagram size={26} />
-            </a>
-          </div> */}
-
           {renderThemeChanger()}
         </div>
       </div>
