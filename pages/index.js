@@ -5,6 +5,7 @@ import { SunIcon, MoonIcon } from "@heroicons/react/solid";
 import styles from "../styles/Home.module.css";
 import AutoPlay from "../components/Slider";
 import Roadmap from "../components/Roadmap";
+import About from "../components/About";
 import Team from "../components/Team";
 import { useEffect, useState } from "react";
 import FAQ from "../components/FAQ";
@@ -123,6 +124,8 @@ export default function Home() {
       <Roadmap />
 
       <Team />
+
+      <About />
 
       <FAQ color={theme === "light" ? "black" : "white"} />
 

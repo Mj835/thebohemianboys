@@ -8,19 +8,19 @@ const Roadmap = () => {
         <div className={styles.timelineContainer}>
           <div className={styles.timelineItem}>
             <div className={styles.timelineItemContent}>
-              <h3>25% / Phase 1 (100 ETH)</h3>
+              <h3>25% / Phase 1</h3>
 
               <div>
                 <ul style={{ listStyle: "disc", marginLeft: 25 }}>
                   <li>
-                    25holders will get chance to travel in private jet(25ETH)
+                    Holders will get chance to travel in private jet
                   </li>
                   <li>
                     Merchandise store of fancy travel equipments and gears for
-                    holders (Suitcases & Luggage) (50ETH)
+                    holders (Suitcases & Luggage)
                   </li>
                   <li>
-                    25ETH will be given to an organization for providing better
+                    Funds will be given to an organization for providing better
                     water supply in African countries.
                   </li>
                 </ul>
@@ -31,24 +31,23 @@ const Roadmap = () => {
 
           <div className={styles.timelineItem}>
             <div className={styles.timelineItemContent}>
-              <h3>50% / Phase 2 (100ETH)</h3>
+              <h3>50% / Phase 2</h3>
 
               <div>
                 <ul style={{ listStyle: "disc", marginLeft: 25 }}>
                   <li>
                     Activation of funds & community wallet for staking of
-                    (50ETH)
                   </li>
                   <li>
                     First IRL meet up with 150 selected holders (all travel
-                    expenses paid)(10ETH)
+                    expenses paid)
                   </li>
                   <li>
-                    15ETH will be given to an NGO providing better shelter to
+                    Funds will be given to an NGO providing better shelter to
                     animals
                   </li>
                   <li>
-                    Exclusive meeting with travel bloggers, celebrities (25ETH)
+                    Exclusive meeting with travel bloggers, celebrities
                   </li>
                 </ul>
               </div>
@@ -58,26 +57,26 @@ const Roadmap = () => {
 
           <div className={styles.timelineItem}>
             <div className={styles.timelineItemContent}>
-              <h3>75% / Phase 3 (100ETH)</h3>
+              <h3>75% / Phase 3</h3>
 
               <div>
                 <ul style={{ listStyle: "disc", marginLeft: 25 }}>
                   <li>
-                    15 holders will get chance to travel in chartered
-                    helicopters around the famous cities. (35ETH)
+                    Holders will get chance to travel in chartered
+                    helicopters around the famous cities.
                   </li>
                   <li>
-                    10ETH worth of giveaways to 100 holders(roomcard, luxury
+                    Giveaways to 100 holders(roomcard, luxury
                     escapes)
                   </li>
                   <li>
                     First ever Metaverse museum of our collection and
                     collaboration with other NFT collections to take part in the
-                    museum(35ETH)
+                    museum
                   </li>
                   <li>
                     Exclusive first-class flight tickets to selected countries
-                    to 20 holders worth 1ETH each (20ETH)
+                    to 20 holders.
                   </li>
                 </ul>
               </div>
@@ -87,18 +86,18 @@ const Roadmap = () => {
 
           <div className={styles.timelineItem}>
             <div className={styles.timelineItemContent}>
-              <h3>100% / Phase 4 (200ETH)</h3>
+              <h3>100% / Phase 4</h3>
 
               <div>
                 <ul style={{ listStyle: "disc", marginLeft: 25 }}>
-                  <li>Legendary holders will receive 10ETH each (50ETH)</li>
+                  <li>Legendary holders will receive gifts</li>
                   <li>
                     Uncommon & common holders will get a chance to participate
-                    in giveaway worth of 1ETH each (50ETH)
+                    in giveaway.
                   </li>
                   <li>
-                    10 holders will get a 7 days’ vacation to their favorite
-                    country with all expenses paid (10ETH) each
+                    Holders will get a 7 days’ vacation to their favorite
+                    country with all expenses paid
                   </li>
                 </ul>
               </div>
