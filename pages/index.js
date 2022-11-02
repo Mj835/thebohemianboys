@@ -105,9 +105,9 @@ export default function Home() {
                       </div>
                     </div>
                     <div className={styles.buttonWrapper}>
-                      <a id="mint-button" href="#" className={styles.button}>
+                      {/* <a id="mint-button" href="#" className={styles.button}>
                         Mint now
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ export default function Home() {
       <footer className={styles.footer}>
         <h1>The Bohemian Boys</h1>
 
-        <div>
+        {/* <div>
           <a href="#">
             <FaDiscord size={26} />
           </a>
@@ -142,7 +142,7 @@ export default function Home() {
           <a href="#">
             <FaInstagram size={26} />
           </a>
-        </div>
+        </div> */}
       </footer>
     </div>
   );
