@@ -132,17 +132,14 @@ export default function Home() {
       <footer className={styles.footer}>
         <h1>The Bohemian Boys</h1>
 
-        {/* <div>
-          <a href="#">
+        <div>
+          <a href="https://discord.gg/tf8Vj2K6Tu" target="_blank" rel="noreferrer">
             <FaDiscord size={26} />
           </a>
-          <a href="#">
+          <a href="https://twitter.com/Bohemianboys" target="_blank" rel="noreferrer">
             <FaTwitter size={26} />
           </a>
-          <a href="#">
-            <FaInstagram size={26} />
-          </a>
-        </div> */}
+        </div>
       </footer>
     </div>
   );

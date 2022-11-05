@@ -21,9 +21,9 @@ const Team = () => {
           />
           <h3>Excursionist</h3>
           <p>Founder</p>
-          <a href="#">
+          {/* <a href="#">
             <FaTwitter size={26} />
-          </a>
+          </a> */}
         </div>
         <div className={styles.membersWrapper}>
           <Image
@@ -35,9 +35,9 @@ const Team = () => {
           />
           <h3>Rhapsody</h3>
           <p>Tech</p>
-          <a href="#">
+          {/* <a href="#">
             <FaTwitter size={26} />
-          </a>
+          </a> */}
         </div>
         <div className={styles.membersWrapper}>
           <Image
@@ -47,11 +47,11 @@ const Team = () => {
             height={220}
             style={{ borderRadius: 10 }}
           />
-          <h3>LightHouse</h3>
+          <h3>MoonClub</h3>
           <p>Marketing</p>
-          <a href="#">
+          {/* <a href="#">
             <FaTwitter size={26} />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
