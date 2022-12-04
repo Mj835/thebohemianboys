@@ -12,16 +12,11 @@ const Roadmap = () => {
 
               <div>
                 <ul style={{ listStyle: "disc", marginLeft: 25 }}>
+                  <li>Activation of Staking</li>
+                  <li>High end merch such as travel equipment and gear</li>
                   <li>
-                    Holders will get chance to travel in private jet
-                  </li>
-                  <li>
-                    Merchandise store of fancy travel equipments and gears for
-                    holders (Suitcases & Luggage)
-                  </li>
-                  <li>
-                    Funds will be given to an organization for providing better
-                    water supply in African countries.
+                    A portion of funds will be donated to charities focusing on
+                    water supply issues in Africa.
                   </li>
                 </ul>
               </div>
@@ -35,20 +30,16 @@ const Roadmap = () => {
 
               <div>
                 <ul style={{ listStyle: "disc", marginLeft: 25 }}>
-                  <li>
-                    Activation of funds & community wallet for staking of
-                  </li>
+                  <li>Activation of Staking</li>
                   <li>
                     First IRL meet up with 150 selected holders (all travel
                     expenses paid)
                   </li>
                   <li>
-                    Funds will be given to an NGO providing better shelter to
-                    animals
+                    A portion of funds will be given to an NGO providing better
+                    shelter to animals
                   </li>
-                  <li>
-                    Exclusive meeting with travel bloggers, celebrities
-                  </li>
+                  <li>Exclusive meeting with travel bloggers, celebrities</li>
                 </ul>
               </div>
               <span className={styles.circle}></span>
@@ -62,21 +53,14 @@ const Roadmap = () => {
               <div>
                 <ul style={{ listStyle: "disc", marginLeft: 25 }}>
                   <li>
-                    Holders will get chance to travel in chartered
-                    helicopters around the famous cities.
+                    Holders will get a chance to travel in chartered helicopters
+                    around world famous cities.
                   </li>
-                  <li>
-                    Giveaways to 100 holders(roomcard, luxury
-                    escapes)
-                  </li>
-                  <li>
-                    First ever Metaverse museum of our collection and
-                    collaboration with other NFT collections to take part in the
-                    museum
-                  </li>
+                  <li>Travel themed Giveaways to 100 holders</li>
+                  <li>First ever Metaverse museum</li>
                   <li>
                     Exclusive first-class flight tickets to selected countries
-                    to 20 holders.
+                    to Limited holders.
                   </li>
                 </ul>
               </div>
@@ -90,14 +74,17 @@ const Roadmap = () => {
 
               <div>
                 <ul style={{ listStyle: "disc", marginLeft: 25 }}>
-                  <li>Legendary holders will receive gifts</li>
+                  <li>Legendary holders will receive giveaway</li>
                   <li>
                     Uncommon & common holders will get a chance to participate
-                    in giveaway.
+                    in giveaway
                   </li>
                   <li>
-                    Holders will get a 7 days’ vacation to their favorite
-                    country with all expenses paid
+                    Holders will get a 7 day vacation to their destination of
+                    there choosing all expenses paid
+                  </li>
+                  <li>
+                    Holders will have the opportunity to travel in private jet
                   </li>
                 </ul>
               </div>
