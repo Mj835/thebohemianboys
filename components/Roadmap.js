@@ -12,6 +12,8 @@ const Roadmap = () => {
 
               <div>
                 <ul style={{ listStyle: "disc", marginLeft: 25 }}>
+                  <li>Activation of Staking</li>
+
                   <li>High end merch such as travel equipment and gear</li>
                   <li>
                     A portion of funds will be donated to charities focusing on
@@ -29,7 +31,6 @@ const Roadmap = () => {
 
               <div>
                 <ul style={{ listStyle: "disc", marginLeft: 25 }}>
-                  <li>Activation of Staking</li>
                   <li>Travel goodies giveaways</li>
                   <li>First IRL with holders 75%</li>
                   <li>
