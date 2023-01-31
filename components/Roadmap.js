@@ -31,15 +31,13 @@ const Roadmap = () => {
               <div>
                 <ul style={{ listStyle: "disc", marginLeft: 25 }}>
                   <li>Activation of Staking</li>
-                  <li>
-                    First IRL meet up with 150 selected holders (all travel
-                    expenses paid)
-                  </li>
+                  <li>Travel goodies giveaways</li>
+                  <li>First IRL with holders 75%</li>
                   <li>
                     A portion of funds will be given to an NGO providing better
                     shelter to animals
                   </li>
-                  <li>Exclusive meeting with travel bloggers, celebrities</li>
+                  <li>Exclusive meeting with travel bloggers</li>
                 </ul>
               </div>
               <span className={styles.circle}></span>
@@ -52,15 +50,10 @@ const Roadmap = () => {
 
               <div>
                 <ul style={{ listStyle: "disc", marginLeft: 25 }}>
+                  <li>First IRL with holders</li>
                   <li>
-                    Holders will get a chance to travel in chartered helicopters
-                    around world famous cities.
-                  </li>
-                  <li>Travel themed Giveaways to 100 holders</li>
-                  <li>First ever Metaverse museum</li>
-                  <li>
-                    Exclusive first-class flight tickets to selected countries
-                    to Limited holders.
+                    Holders will get a chance to travel in helicopters around
+                    famous citiies
                   </li>
                 </ul>
               </div>
@@ -74,18 +67,14 @@ const Roadmap = () => {
 
               <div>
                 <ul style={{ listStyle: "disc", marginLeft: 25 }}>
-                  <li>Legendary holders will receive giveaway</li>
+                  <li>Metaverse museum</li>
+                  <li>Exclusive first class ticket giveaways</li>
+                  <li>Legendary holders will receive giveaways</li>
                   <li>
-                    Uncommon & common holders will get a chance to participate
-                    in giveaway
+                    Few holders will get a 7 days vacation to their favorite
+                    country
                   </li>
-                  <li>
-                    Holders will get a 7 day vacation to their destination of
-                    there choosing all expenses paid
-                  </li>
-                  <li>
-                    Holders will have the opportunity to travel in private jet
-                  </li>
+                  <li>Exclusive private jet tickets</li>
                 </ul>
               </div>
               <span className={styles.circle}></span>
