@@ -32,7 +32,7 @@ const Roadmap = () => {
               <div>
                 <ul style={{ listStyle: "disc", marginLeft: 25 }}>
                   <li>Travel goodies giveaways</li>
-                  <li>First IRL with holders 75%</li>
+                  <li>First IRL with holders</li>
                   <li>
                     A portion of funds will be given to an NGO providing better
                     shelter to animals
