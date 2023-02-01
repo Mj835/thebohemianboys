@@ -16,6 +16,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 -2rem 2rem;
+}
+
+.mainDarkBg {
+  background-image: url("../assets/BannerBgDark.jpg");
+}
+
+.mainLightBg {
+  background-image: url("../assets/BannerBgLight.jpg");
 }
 
 .pagePadding {
@@ -381,7 +392,6 @@
     width: 100%;
   }
 }
-
 
 /* About */
 

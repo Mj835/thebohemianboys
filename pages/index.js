@@ -84,7 +84,13 @@ export default function Home() {
         </div>
       </div>
 
-      <main className={styles.main}>
+      <main
+        className={
+          theme === "dark"
+            ? `${styles.main} ${styles.mainDarkBg}`
+            : `${styles.main} ${styles.mainLightBg}`
+        }
+      >
         <div className={styles.pagePadding}>
           <div className={styles.containerLarge}>
             <div className={styles.paddingXhuge}>
@@ -133,10 +139,18 @@ export default function Home() {
         <h1>The Bohemian Boys</h1>
 
         <div>
-          <a href="https://discord.gg/tf8Vj2K6Tu" target="_blank" rel="noreferrer">
+          <a
+            href="https://discord.gg/tf8Vj2K6Tu"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaDiscord size={26} />
           </a>
-          <a href="https://twitter.com/Bohemianboys" target="_blank" rel="noreferrer">
+          <a
+            href="https://twitter.com/Bohemianboys"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaTwitter size={26} />
           </a>
         </div>
