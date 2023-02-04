@@ -1,8 +1,8 @@
 import styles from "/styles/Home.module.css";
 export default function About() {
   return (
-    <>
-      <h1 className={styles.about}>
+    <div className={styles.about}>
+      <h1>
         While looking for an adventure the four of us met at the foothills of
         the Himalayas. The night prior to our adventure we sat together breaking
         bread sharing a steaming pot of soup while a rumbling river filled the
@@ -16,6 +16,6 @@ export default function About() {
         created. Welcome to the greatest adventure of your life. Who is ready to
         become a Bohemian Boy?!
       </h1>
-    </>
+    </div>
   );
 }
